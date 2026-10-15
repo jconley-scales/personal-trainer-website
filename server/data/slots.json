@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "slot-4fe5900c-29de-4e09-8364-afa4785294e3",
+    "date": "2026-09-05",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fb5cc018-9ba2-4f6c-bce7-bdda6ce969cc",
+    "date": "2026-09-05",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-62599563-8848-4509-898f-5b2bf9fd3a9b",
+    "date": "2026-09-05",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7223d2e7-a2a0-491f-8c03-a076f6024cd4",
+    "date": "2026-09-07",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-c5dc348d-7060-45f9-b09e-417dd58988be",
+    "date": "2026-09-07",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-92c7cfb3-3e56-42a9-850a-f29f8dbbdd76",
+    "date": "2026-09-07",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6b68a6dc-37cb-4662-bbf2-9b36575b13c1",
+    "date": "2026-09-07",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-d86a5499-a478-4dec-b2cf-8b4e223671b7",
+    "date": "2026-09-07",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-94254577-29f3-4bb1-b366-ad024c9976d1",
+    "date": "2026-09-07",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-2ba384f1-4905-412a-9dd0-840ca98693aa",
+    "date": "2026-09-07",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b82c346f-4702-4ce5-bdaf-df793c753170",
+    "date": "2026-09-07",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7d084c4e-9233-4181-815b-6fd2158514bd",
+    "date": "2026-09-07",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f10439d8-d201-49e0-9892-0dcca1487c87",
+    "date": "2026-09-08",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-0b5e29d5-fb4d-4fe2-a6b4-b4b95f799ab6",
+    "date": "2026-09-08",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-ed48b777-961e-4e01-9636-06559dc4f568",
+    "date": "2026-09-08",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-75bba14d-a9f6-4013-9f12-c89e9ced6793",
+    "date": "2026-09-08",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6fff2992-051e-4ace-8e9a-bd301168b39d",
+    "date": "2026-09-08",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-4b22a750-1c8f-4891-b0fe-37a092351cb7",
+    "date": "2026-09-08",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-2cfae4e6-440a-47aa-906e-41fe5f09a162",
+    "date": "2026-09-08",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-3b922892-085c-4ba1-ad88-e9f7d6c41145",
+    "date": "2026-09-08",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-da018e5e-05d7-42a5-8d7b-081e2b2b7b8d",
+    "date": "2026-09-08",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-574e1c4d-23ac-45b5-9f92-e2396d948b1e",
+    "date": "2026-09-09",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7152eab4-8bdd-40f7-ac23-d15ea69ef0e8",
+    "date": "2026-09-09",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-cc1c035f-81af-4e74-a9f9-5a3e81c5dc39",
+    "date": "2026-09-09",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-dd9a29a9-982d-423a-a633-37a9e1d64db0",
+    "date": "2026-09-09",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-69801714-7882-496c-870f-697dba63ea3c",
+    "date": "2026-09-09",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-29e96fe5-cb47-4ffe-8674-ee7e40276383",
+    "date": "2026-09-09",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f2e5f4d4-05e2-4f88-81b2-6b540d542acb",
+    "date": "2026-09-09",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6d3c3d70-eef0-4079-bcf5-ddfa8d04e2f1",
+    "date": "2026-09-09",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-212927da-ffee-4645-ab27-197ac3fd93a5",
+    "date": "2026-09-09",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6fb72638-5bce-4cce-b474-cb0bb236951e",
+    "date": "2026-09-10",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-dbda25d8-e7aa-4f5f-aff1-fd9cd57bfb23",
+    "date": "2026-09-10",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-898e22be-0bd8-45a4-a2b3-be0a971be355",
+    "date": "2026-09-10",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-cb292d1e-e169-4847-9236-2fe40456d7fa",
+    "date": "2026-09-10",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f2b7524a-c8bc-4d9e-ba61-990af47772e9",
+    "date": "2026-09-10",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-3614e2cd-aa00-4409-a6cc-662c4e9e26a1",
+    "date": "2026-09-10",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-5f502aa6-9d35-489f-8bca-793adc3a2f13",
+    "date": "2026-09-10",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-1007fd6f-f318-41e0-84ab-21c3c658034d",
+    "date": "2026-09-10",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-e1eb213a-f8f2-4bf5-95c3-e903f6c8d8da",
+    "date": "2026-09-10",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-5cc30550-81de-4010-9d7a-6952d399c351",
+    "date": "2026-09-11",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-959cc338-60ac-407e-8aba-70aa14862143",
+    "date": "2026-09-11",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-1160e26e-fa0c-425d-855a-588dfd812067",
+    "date": "2026-09-11",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-01ce4e72-9a71-42fd-9ae3-489fc1f8f1f5",
+    "date": "2026-09-11",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-40911f1c-e680-49f2-b18d-27d5a4512665",
+    "date": "2026-09-11",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-c208002f-b63a-401c-8bfc-100033a17ab5",
+    "date": "2026-09-11",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-d660bcc7-298d-4909-95ba-bc471da0a82e",
+    "date": "2026-09-11",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b94cb97f-4d43-4d3f-89f7-22577a589014",
+    "date": "2026-09-11",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-15e5c9fc-0cab-4ed2-bffe-3f503934e816",
+    "date": "2026-09-11",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-909a32ac-92aa-48dd-8918-88d9b5ff62f9",
+    "date": "2026-09-12",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-48ba3c5f-b19b-406b-b598-15714bdd716c",
+    "date": "2026-09-12",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b8fbb79a-1450-4b37-ac4a-c4211eb4d83a",
+    "date": "2026-09-12",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-1924de1c-dea6-4ffa-aff4-ecf42ff5127b",
+    "date": "2026-09-14",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-57bf9fe9-819c-43fc-8c19-b854e7d7cad7",
+    "date": "2026-09-14",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-65b56697-4cd7-4e26-a934-2e6839ac3bed",
+    "date": "2026-09-14",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-c70a5d0f-abf6-4344-a258-0e4d9e457827",
+    "date": "2026-09-14",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-5a1a0e72-ff51-47ea-bed5-7f94cff25ecc",
+    "date": "2026-09-14",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-147ecb63-0651-4855-9908-3b8f4bdbe686",
+    "date": "2026-09-14",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-dda00d78-5ca6-4e85-ada4-a207f3303b90",
+    "date": "2026-09-14",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-198ae3d9-4ec7-496a-a767-00d01a991320",
+    "date": "2026-09-14",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7e6a89aa-a68b-483b-ace0-523070e1646d",
+    "date": "2026-09-14",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b688fd25-85ee-48cb-bb4f-2924b5dad529",
+    "date": "2026-09-15",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-db45d63e-3c52-43bc-9060-e69392e1a477",
+    "date": "2026-09-15",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-bfeab8c3-cfe4-4bca-871b-8d8bc6dbcf52",
+    "date": "2026-09-15",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7c2ea2cb-3872-481a-9ea9-e932f08a1640",
+    "date": "2026-09-15",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-1d7083ab-1cc3-4f3a-bf91-bfc1bcb7682e",
+    "date": "2026-09-15",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-343d5e7f-c53d-4410-9c7e-8d5173c67d97",
+    "date": "2026-09-15",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8d0edbd5-adff-4d84-8b0d-11028807c283",
+    "date": "2026-09-15",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-3d3464a8-7e58-47e9-b79e-f5b570c4ce64",
+    "date": "2026-09-15",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6d058b97-2048-4758-aa4c-5e7d6631214d",
+    "date": "2026-09-15",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-4c6336d8-5ad3-4a35-8db4-03a8443346e7",
+    "date": "2026-09-16",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-265b5f00-f3cb-4d66-8f6a-c4939f1d4c10",
+    "date": "2026-09-16",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-577dc302-e604-4b61-8667-ca52bdc2935c",
+    "date": "2026-09-16",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f041d619-35dd-4b33-bad7-9ac03bb12582",
+    "date": "2026-09-16",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-85e02ed1-333a-4835-9f53-d0f09f9ba01f",
+    "date": "2026-09-16",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-599f7312-d522-43a9-98aa-192a42d7a1b0",
+    "date": "2026-09-16",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-305a4b74-c5c9-47b3-9580-5ccc113e7471",
+    "date": "2026-09-16",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7e27f2e2-7397-458d-b4c8-8fd8b8ed1f13",
+    "date": "2026-09-16",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fd0262db-c5ab-49b7-8b11-f18679f395b3",
+    "date": "2026-09-16",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-de944616-e174-4438-9bf3-404944c7f2b3",
+    "date": "2026-09-17",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-4b56f418-6166-49c1-8f2a-3794867ca708",
+    "date": "2026-09-17",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fcd6c104-7d68-437a-ab4a-9f518ab183eb",
+    "date": "2026-09-17",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-80720b49-04e9-4f22-8e20-af888f158ed1",
+    "date": "2026-09-17",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fb5edae4-bc87-4bf0-88e1-1b934f7c9d2d",
+    "date": "2026-09-17",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-bdcfd8aa-20e4-44e9-a02a-e48d2684aeef",
+    "date": "2026-09-17",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-cf2c4267-7019-4a32-936a-bd3c40f54670",
+    "date": "2026-09-17",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-916c51f1-c7c6-472c-8f1f-1b249364b9d0",
+    "date": "2026-09-17",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-eec9a74f-4ccf-4c2c-828e-cfa1b1dda5f5",
+    "date": "2026-09-17",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fb40f189-789c-44b1-a8e2-aab01e1cbf2a",
+    "date": "2026-09-18",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f775c0a9-351a-40b9-9991-c5ae7df3d687",
+    "date": "2026-09-18",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6317cacf-d3e7-4ab6-a67a-8d1ffe4d6a20",
+    "date": "2026-09-18",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-3019b94d-dc5f-40c9-9e0c-df00f81da92d",
+    "date": "2026-09-18",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-255b76ca-6f1b-4d3c-aaed-1aa2fe653544",
+    "date": "2026-09-18",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-5e83e3b9-6c8e-4aaa-895e-6c2cb04677df",
+    "date": "2026-09-18",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-f35c1bfc-f965-4697-9bda-569c032afda4",
+    "date": "2026-09-18",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b6083954-3b3a-44c0-bb70-492ffd7673de",
+    "date": "2026-09-18",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-33b7fdde-757d-4054-b85c-51c369e08d01",
+    "date": "2026-09-18",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7f30ae47-3e47-491d-beff-174386d94f80",
+    "date": "2026-09-19",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-04b1d27a-62a0-45f2-aa3c-155572cd4be9",
+    "date": "2026-09-19",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-93ce4c46-af9e-4174-a5c8-4a49f1efa91b",
+    "date": "2026-09-19",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-1f154798-1d08-4be7-a1e3-508394294d37",
+    "date": "2026-09-21",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-d1c8346a-1fce-461d-97d7-9b98d9e21952",
+    "date": "2026-09-21",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-c5b26ea5-df39-4f18-bab3-852efa27bd89",
+    "date": "2026-09-21",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8560545c-612c-4dcc-89d8-7242a9b33ea3",
+    "date": "2026-09-21",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6c7d4bee-1f0a-4200-b8a5-01ddc5b9d95a",
+    "date": "2026-09-21",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-3c2345ad-4ca3-4fdd-b361-48ef90025bf7",
+    "date": "2026-09-21",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-62dcc3af-6915-4dac-a3b1-94cb389ed72e",
+    "date": "2026-09-21",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-ee5bf64d-32ba-4f02-b43a-28df006d25ee",
+    "date": "2026-09-21",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6a8ef304-c271-4969-a77b-6e90690074b9",
+    "date": "2026-09-21",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6ba280ce-e5b7-4b29-ab92-6e30a524a30b",
+    "date": "2026-09-22",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-e355ddc0-d427-4c31-a281-ebe24518eb4c",
+    "date": "2026-09-22",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7c98af45-9c36-4492-8aba-01b92ccd5ebd",
+    "date": "2026-09-22",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-382919a0-cf00-4c09-bb17-074e36af083f",
+    "date": "2026-09-22",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-daaa095f-458a-4174-8ba2-2ea967daddf8",
+    "date": "2026-09-22",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-125fc1ee-06a6-4df0-933f-2003cbc11a79",
+    "date": "2026-09-22",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-0b183820-ae6e-4737-a207-7d558d12fbb3",
+    "date": "2026-09-22",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-fab5bf6f-cc39-406e-9585-d2383d68cfe4",
+    "date": "2026-09-22",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-9f62679c-42d7-427e-9e69-de1f6bd72d94",
+    "date": "2026-09-22",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-49bc5e20-578c-483c-a20b-b47d5cabeed9",
+    "date": "2026-09-23",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8aa3b08b-170a-433e-b507-87a745cfb470",
+    "date": "2026-09-23",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-cf25ed9f-50ce-47a8-bfdc-44d9a22068d8",
+    "date": "2026-09-23",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8c6302ca-7c34-45b9-bc26-485f3d5aa9ff",
+    "date": "2026-09-23",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-0b9bf3cb-ae5a-41d3-ba61-4ff5a8a36757",
+    "date": "2026-09-23",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8b076b32-6f66-449d-a318-94f08efde686",
+    "date": "2026-09-23",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-b3fc0332-e489-481c-a2b9-60165f92b34c",
+    "date": "2026-09-23",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-aa3a2523-0a83-4ec9-8a7f-ff5797ed3bab",
+    "date": "2026-09-23",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-4e708eb4-fb9f-455c-b424-c1d77447cbb7",
+    "date": "2026-09-23",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-e43ba374-32bf-4784-9ace-2b3b002cb7da",
+    "date": "2026-09-24",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8f5c42c7-db82-4081-854b-73f924354ef3",
+    "date": "2026-09-24",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-4f49f49a-2f4f-4fae-84aa-2261aae129a2",
+    "date": "2026-09-24",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-7c6cdf5a-d60c-4992-a715-66cf479abb77",
+    "date": "2026-09-24",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-78f19716-c62c-4f2c-81f7-c54a1f58aac4",
+    "date": "2026-09-24",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-6eb653d0-542f-4a2b-a2af-bc2f83616728",
+    "date": "2026-09-24",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-99c4a85c-558f-41a2-8377-752764b9c003",
+    "date": "2026-09-24",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-43600e89-0778-4703-b591-8abea4e37e24",
+    "date": "2026-09-24",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-86146981-ff37-42ac-8e1c-42cded6e6c03",
+    "date": "2026-09-24",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-aa2db13a-1823-4b52-8580-7bd6f19a4ed8",
+    "date": "2026-09-25",
+    "time": "08:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-71c1b48d-d620-4228-8ff7-0a1fd8494479",
+    "date": "2026-09-25",
+    "time": "09:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-af88086c-6be4-41ed-8190-47a7451e87c3",
+    "date": "2026-09-25",
+    "time": "10:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-192f8efc-5b55-403a-8e43-cdcc9ccbb3f3",
+    "date": "2026-09-25",
+    "time": "11:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-8f64e6c4-5b94-4f6c-99f8-fc75efe949bd",
+    "date": "2026-09-25",
+    "time": "12:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-a38a1342-aeee-4f45-b4e0-c2d3b2de8a8f",
+    "date": "2026-09-25",
+    "time": "13:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-30953295-eded-4d81-9e59-84ab37e0522b",
+    "date": "2026-09-25",
+    "time": "14:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-ba5e141e-ba5e-439d-9388-29e4b781d679",
+    "date": "2026-09-25",
+    "time": "15:00",
+    "status": "available",
+    "bookingId": null
+  },
+  {
+    "id": "slot-a732bceb-29c0-46f1-8f33-55b05bb03681",
+    "date": "2026-09-25",
+    "time": "16:00",
+    "status": "available",
+    "bookingId": null
+  }
+]

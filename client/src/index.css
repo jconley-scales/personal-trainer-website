@@ -1,0 +1,498 @@
+/* =========================================================================
+   Design tokens
+   -------------------------------------------------------------------------
+   Colors below were chosen and checked against WCAG contrast ratios for
+   normal text on white (target 7:1 / AAA) and for white text on the button
+   colors (target 4.5:1+ / AA, most are 7:1+):
+     - text on bg-page:      #1A1A1A on #FFFFFF  ~ 18.7:1
+     - primary on bg-page:   #0B5566 on #FFFFFF  ~  7.4:1
+     - white on primary:     #FFFFFF on #0B5566  ~  7.4:1
+     - white on primary-dark:#FFFFFF on #063C48  ~ 10.6:1
+     - secondary on bg-page: #2E6F40 on #FFFFFF  ~  5.3:1 (AA; used bold/large)
+     - white on secondary:   #FFFFFF on #2E6F40  ~  5.3:1
+     - error on bg-page:     #9A2A22 on #FFFFFF  ~  7.2:1
+   If you change any color, re-check contrast (e.g. with webaim.org/resources/contrastchecker)
+   before shipping - this is the single most important accessibility rule
+   on this site given our 50+ audience.
+   ========================================================================= */
+:root {
+  --color-bg-page: #ffffff;
+  --color-bg-alt: #f2f7f6; /* soft mint - section backgrounds, cards */
+  --color-bg-header: #eaf2f0;
+  --color-text: #1a1a1a;
+  --color-text-muted: #3f3f3f; /* still >7:1 on white, use instead of light gray */
+  --color-border: #c9d6d3;
+
+  --color-primary: #0b5566; /* deep teal - primary buttons/links */
+  --color-primary-dark: #063c48; /* hover/active state */
+  --color-secondary: #2e6f40; /* forest green - secondary accents */
+  --color-secondary-dark: #1f4e2c;
+  --color-error: #9a2a22;
+  --color-error-bg: #fbeceb;
+  --color-success: #1f4e2c;
+  --color-success-bg: #e9f4ec;
+
+  --font-body: "Segoe UI", "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+
+  --radius: 0.5rem;
+  --max-content-width: 68rem;
+  --max-text-width: 42rem; /* ~ comfortable reading line length */
+
+  /* Minimum interactive target size (WCAG 2.5.5 / senior-friendly requirement) */
+  --tap-target: 2.75rem; /* 44px at default 16px root, scales with zoom */
+}
+
+/* =========================================================================
+   Base / reset
+   -------------------------------------------------------------------------
+   Font sizes are in rem, not px, on purpose: rem scales with the browser's
+   root font-size setting, so a user who has increased their OS/browser text
+   size (common for low-vision users) gets a proportionally larger layout
+   instead of overlapping, clipped text. Do not switch these back to px.
+   ========================================================================= */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* respect user/browser default (typically 16px) */
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  /* 1.125rem = 18px at default root size: meets the "minimum 18px body
+     font" requirement while still scaling correctly with browser zoom. */
+  font-size: 1.125rem;
+  line-height: 1.6; /* generous line-height aids readability for all ages */
+  color: var(--color-text);
+  background: var(--color-bg-page);
+  font-weight: 400; /* never use 200/300 "thin" weights on this site */
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700; /* bold headings only - thin headings are hard to read */
+  line-height: 1.25;
+  color: var(--color-primary-dark);
+}
+h1 { font-size: clamp(1.9rem, 1.6rem + 1.4vw, 2.75rem); }
+h2 { font-size: clamp(1.5rem, 1.3rem + 0.9vw, 2rem); }
+h3 { font-size: 1.35rem; }
+
+p { margin: 0 0 1rem 0; }
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline; /* always visible, never rely on color alone */
+  text-underline-offset: 0.15em;
+}
+a:hover { color: var(--color-primary-dark); }
+
+img { max-width: 100%; height: auto; display: block; }
+
+/* =========================================================================
+   Focus visibility
+   -------------------------------------------------------------------------
+   A strong, high-contrast focus ring everywhere, for keyboard users. This
+   is more important, not less, for an older audience who may rely on
+   keyboard navigation or switch devices rather than a mouse/touch.
+   ========================================================================= */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 3px;
+}
+
+/* Skip link: first focusable element on every page, invisible until
+   keyboard-focused, lets keyboard/screen-reader users jump past the header
+   and navigation straight to the page content. */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  background: var(--color-primary-dark);
+  color: #fff;
+  padding: var(--space-2) var(--space-3);
+  z-index: 1000;
+  border-radius: var(--radius);
+  font-weight: 700;
+}
+.skip-link:focus {
+  left: var(--space-2);
+  top: var(--space-2);
+}
+
+/* Respect users who have asked their OS to reduce motion. We already avoid
+   flashing/auto-playing motion entirely, but this also flattens the small
+   hover/transition effects we do use. */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* =========================================================================
+   Layout helpers
+   ========================================================================= */
+.container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+.prose {
+  max-width: var(--max-text-width);
+}
+
+.section {
+  padding: var(--space-5) 0;
+}
+.section--alt {
+  background: var(--color-bg-alt);
+}
+
+.stack { display: flex; flex-direction: column; gap: var(--space-3); }
+.stack--tight { gap: var(--space-2); }
+
+.grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+
+/* =========================================================================
+   Header / navigation
+   -------------------------------------------------------------------------
+   Deliberately a single row of always-visible text links (or a large-tap
+   hamburger list on narrow screens) - no hover-only dropdown menus, which
+   are hard to trigger with touch and easy to accidentally dismiss.
+   ========================================================================= */
+.site-header {
+  background: var(--color-bg-header);
+  border-bottom: 1px solid var(--color-border);
+}
+.site-header__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-2) var(--space-3);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  gap: var(--space-2);
+}
+.site-header__brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+}
+.main-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.main-nav__link:hover,
+.main-nav__link:focus-visible {
+  background: var(--color-bg-alt);
+}
+.main-nav__link[aria-current="page"] {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 56rem) {
+  .site-header__bar { flex-wrap: wrap; }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .main-nav__list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-nav__list.is-collapsed {
+    display: none;
+  }
+  .main-nav__link {
+    width: 100%;
+  }
+}
+
+/* =========================================================================
+   Buttons
+   -------------------------------------------------------------------------
+   Large, high-contrast, always paired with a text label (never icon-only).
+   Minimum 44px touch target on every axis per WCAG 2.5.5.
+   ========================================================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--tap-target);
+  min-width: var(--tap-target);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn--primary:hover:not(:disabled) { background: var(--color-primary-dark); }
+
+.btn--secondary {
+  background: #fff;
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
+}
+.btn--secondary:hover:not(:disabled) { background: var(--color-bg-alt); }
+
+.btn--danger {
+  background: #fff;
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+.btn--danger:hover:not(:disabled) { background: var(--color-error-bg); }
+
+.btn--block { width: 100%; }
+.btn--large { font-size: 1.25rem; padding: 1rem 2rem; }
+
+/* =========================================================================
+   Cards
+   ========================================================================= */
+.card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+.card--alt {
+  background: var(--color-bg-alt);
+}
+
+/* =========================================================================
+   Forms
+   -------------------------------------------------------------------------
+   Labels are always separate, visible <label> elements positioned above
+   their field (never placeholder-only), per the senior-friendly
+   requirement - placeholder text disappears the moment someone starts
+   typing and is often low-contrast, which makes it a poor substitute for a
+   real label.
+   ========================================================================= */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: var(--space-3);
+}
+.field label {
+  font-weight: 700;
+}
+.field__hint {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+.field input,
+.field select,
+.field textarea {
+  font-family: inherit;
+  font-size: 1.125rem;
+  padding: 0.65rem 0.75rem;
+  min-height: var(--tap-target);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  background: #fff;
+}
+.field textarea { min-height: 6rem; }
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible {
+  border-color: var(--color-secondary);
+}
+.field--error input,
+.field--error select,
+.field--error textarea {
+  border-color: var(--color-error);
+}
+.field__error {
+  color: var(--color-error);
+  font-weight: 700;
+}
+
+fieldset {
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-2);
+  margin: 0 0 var(--space-3) 0;
+}
+legend {
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+
+/* =========================================================================
+   Alerts / banners
+   ========================================================================= */
+.alert {
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+.alert--error {
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
+.alert--success {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+/* =========================================================================
+   Time-slot picker buttons (Booking page)
+   ========================================================================= */
+.slot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: var(--space-1);
+}
+.slot-btn {
+  min-height: var(--tap-target);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.slot-btn[aria-pressed="true"] {
+  background: var(--color-primary);
+  color: #fff;
+}
+.slot-btn:hover { background: var(--color-bg-alt); }
+.slot-btn[aria-pressed="true"]:hover { background: var(--color-primary-dark); }
+
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+  gap: var(--space-1);
+}
+.date-btn {
+  min-height: var(--tap-target);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--color-text);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem;
+  text-align: center;
+}
+.date-btn[aria-pressed="true"] {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+.date-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* =========================================================================
+   Footer
+   ========================================================================= */
+.site-footer {
+  background: var(--color-bg-header);
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-4) 0;
+  margin-top: var(--space-5);
+}
+.site-footer a { font-weight: 600; }
+
+/* =========================================================================
+   Hero (Home page)
+   ========================================================================= */
+.hero {
+  display: grid;
+  gap: var(--space-4);
+  align-items: center;
+  grid-template-columns: 1.1fr 0.9fr;
+}
+@media (max-width: 48rem) {
+  .hero { grid-template-columns: 1fr; }
+}
+.hero__photo-placeholder {
+  background: var(--color-bg-alt);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  min-height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  padding: var(--space-3);
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+.badge {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}

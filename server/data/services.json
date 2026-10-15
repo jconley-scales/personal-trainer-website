@@ -1,0 +1,62 @@
+[
+  {
+    "id": "svc-1on1",
+    "name": "1-on-1 Personal Training",
+    "shortDescription": "Individual attention, a plan built around your goals and abilities.",
+    "description": "A full hour of one-on-one coaching focused entirely on you. We start with a conversation about your goals, any injuries or limitations, and what \"success\" looks like for you, then build a session around that. Great for anyone who wants steady, personal guidance rather than a group class.",
+    "price": 75,
+    "priceUnit": "per session",
+    "duration": "60 minutes",
+    "category": "Individual"
+  },
+  {
+    "id": "svc-senior-fitness",
+    "name": "Senior Fitness Program",
+    "shortDescription": "A gentle, structured program designed for strength, balance, and confidence.",
+    "description": "A low-impact program designed specifically for older adults. We focus on functional strength (the movements you use every day), balance work to help prevent falls, and gentle cardio, all at a pace that respects your body. No experience or existing fitness level required.",
+    "price": 65,
+    "priceUnit": "per session",
+    "duration": "50 minutes",
+    "category": "Group Friendly"
+  },
+  {
+    "id": "svc-mobility",
+    "name": "Mobility & Flexibility Training",
+    "shortDescription": "Move more freely and comfortably in everyday life.",
+    "description": "Gentle stretching and joint-mobility work aimed at reducing stiffness and making everyday movements, like getting up from a chair or reaching a top shelf, easier and more comfortable. Especially popular with clients managing arthritis or recovering from an injury.",
+    "price": 55,
+    "priceUnit": "per session",
+    "duration": "45 minutes",
+    "category": "Individual"
+  },
+  {
+    "id": "svc-balance-fallprev",
+    "name": "Balance & Fall Prevention",
+    "shortDescription": "Build stability and confidence with targeted balance exercises.",
+    "description": "A focused program of balance and coordination exercises designed to reduce fall risk and build confidence moving around your home and community. Includes a simple home-exercise plan you can practice between sessions.",
+    "price": 60,
+    "priceUnit": "per session",
+    "duration": "45 minutes",
+    "category": "Individual"
+  },
+  {
+    "id": "svc-package-4",
+    "name": "4-Session Starter Package",
+    "shortDescription": "Four 1-on-1 sessions at a reduced rate. A great way to get started.",
+    "description": "Four one-on-one sessions purchased together at a discounted rate. A good way to try personal training regularly for a month without a long-term commitment. Sessions can be scheduled at whatever pace works for you.",
+    "price": 260,
+    "priceUnit": "package of 4",
+    "duration": "60 minutes each",
+    "category": "Package"
+  },
+  {
+    "id": "svc-inhome",
+    "name": "In-Home Training Visit",
+    "shortDescription": "Can't make it to the studio? I'll come to you.",
+    "description": "All the benefits of one-on-one training in the comfort and convenience of your own home. Ideal if travel is difficult or you simply prefer to work out at home. Service area and travel fees may apply; ask for details.",
+    "price": 90,
+    "priceUnit": "per session",
+    "duration": "60 minutes",
+    "category": "Individual"
+  }
+]
